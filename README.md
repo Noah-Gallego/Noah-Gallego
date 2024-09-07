@@ -17,7 +17,7 @@
 - 📄 Check out my <a href = "https://docs.google.com/document/d/1E7Qb84HPk1Up0jzK4x30xzx-UeYp8gKB/edit?usp=sharing&ouid=108481266496066459273&rtpof=true&sd=true" target = "_blank">Resúme!</a>
 
 - ⚡ Fun fact **I am a twin!**
-
+![Noah's GitHub stats](https://github-readme-stats.vercel.app/api?username=noah-gallego&show_icons=true&theme=radical)
 <h3 align="left">Connect with me:</h3>
 <p align="left">
 <a href="https://twitter.com/@noahgalleg93630" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/twitter.svg" alt="@noahgalleg93630" height="30" width="40" /></a>
