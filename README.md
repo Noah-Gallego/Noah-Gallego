@@ -36,4 +36,5 @@
 <div align="center">
   ![Noah's GitHub stats](https://github-readme-stats.vercel.app/api?username=noah-gallego&show_icons=true&theme=radical)
 </div>
+![Noah's GitHub stats](https://github-readme-stats.vercel.app/api?username=noah-gallego&show_icons=true&theme=radical)
 
