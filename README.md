@@ -22,7 +22,7 @@
 <p align="left">
 <a href="https://twitter.com/@noahgalleg93630" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/twitter.svg" alt="@noahgalleg93630" height="30" width="40" /></a>
 <a href="https://linkedin.com/in/noah-gallego" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="noah-gallego" height="30" width="40" /></a>
-<a href="https://instagram.com/@noahgallego13" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/instagram.svg" alt="@noahgallego13" height="30" width="40" /></a>
+<a href="https://instagram.com/noahgallego13" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/instagram.svg" alt="@noahgallego13" height="30" width="40" /></a>
 </p>
 
 <h3 align="left">Languages and Tools:</h3>
