@@ -1,20 +1,16 @@
 <h1 align="center">Hi 👋, I'm Noah Gallego</h1>
-<h3 align="center">A aspiring Data Scientist from Bakersfield, CA!</h3>
+<h3 align="center">A aspiring Machine Learning Engineer from Bakersfield, CA!</h3>
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=noah-gallego&label=Profile%20views&color=0e75b6&style=flat" alt="noah-gallego" /> </p>
 
 <p align="left"> <a href="https://twitter.com/@noahgalleg93630" target="blank"><img src="https://img.shields.io/twitter/follow/noahgalleg93630?logo=twitter&style=for-the-badge" alt="@noahgalleg93630"/></a> </p> 
 <img align="right" src="https://media.licdn.com/dms/image/D5603AQHxpY0WCPtu6Q/profile-displayphoto-shrink_200_200/0/1720900333913?e=2147483647&v=beta&t=dbeBo-RstBG6Oxy4c27HRdl1OeaGn_HGAJZnn5HLWrU" height="200" width="200" style="border-radius: 50%; overflow: hidden;">
 
-- 🔭 I’m currently working on [LLNL Machine Learning for Cardiac Electrophysiology](https://github.com/Noah-Gallego/Machine-Learning-for-Cardiac-Electrocardiography)
+- 👨‍💻 All of my projects are available here and at [https://noahgallego.com](https://noahgallego.com)
 
-- 🌱 I’m currently learning **Tensorflow, Pytorch, and all things data!**
+- 📫 How to reach me **ngallego@csub.edu** 
 
-- 👨‍💻 All of my projects are available at [https://noahgallego.com](https://noahgallego.com)
-
-- 📫 How to reach me **ngallego@apple.com** 
-
-- 📄 Check out my <a href = "https://docs.google.com/document/d/1E7Qb84HPk1Up0jzK4x30xzx-UeYp8gKB/edit?usp=sharing&ouid=108481266496066459273&rtpof=true&sd=true" target = "_blank">Resúme!</a>
+- 📄 Check out my <a href = "https://docs.google.com/document/d/1J3eqOy5Pz4JZy1FjFwGYgkTOxn6PY1ILxVaV1Wr_Fm4/edit?usp=sharing" target = "_blank">Resúme!</a>
 
 - ⚡ Fun fact **I am a twin!**
 
