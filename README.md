@@ -1,8 +1,4 @@
-<p align="center">
-  <a href="https://noahgallego.com">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=22&pause=1200&color=0071E3&center=true&vCenter=true&width=640&lines=Machine+Learning+Engineer;CS+%2B+Statistics+%40+CSU+Bakersfield+%2726;Previously+%40+Apple+%C2%B7+LLNL+%C2%B7+Beats+%C2%B7+Capital+One;Building+ML+systems+end-to-end" alt="Typing SVG"/>
-  </a>
-</p>
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0071e3,50:7b2ff7,100:f107a3&height=220&section=header&text=Noah%20Gallego&fontSize=56&fontColor=ffffff&fontAlignY=36&animation=fadeIn&desc=Machine%20Learning%20Engineer%20%C2%B7%20CS%20%2B%20Statistics%20%40%20CSUB%20%2726&descAlignY=62&descSize=18" alt="Noah Gallego — Machine Learning Engineer · CS + Statistics @ CSUB '26"/>
 
 <table>
   <tr>
@@ -80,3 +76,5 @@ Computer Science major, Statistics minor at **CSU Bakersfield** — graduating S
 <p align="center">
   <img width="98%" src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=noah-gallego&theme=tokyonight" alt="Profile Details"/>
 </p>
+
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:f107a3,50:7b2ff7,100:0071e3&height=140&section=footer&animation=twinkling" alt=""/>
