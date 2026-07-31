@@ -1,8 +1,6 @@
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0071e3,50:7b2ff7,100:f107a3&height=220&section=header&text=Noah%20Gallego&fontSize=56&fontColor=ffffff&fontAlignY=38&animation=fadeIn&desc=Machine%20Learning%20Engineer%20%C2%B7%20Bakersfield%2C%20CA&descAlignY=58&descSize=18" alt="Noah Gallego — Machine Learning Engineer"/>
-
 <p align="center">
   <a href="https://noahgallego.com">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=20&pause=1200&color=0071E3&center=true&vCenter=true&width=560&lines=Machine+Learning+Engineer;CS+%2B+Statistics+%40+CSU+Bakersfield+%2726;Previously+%40+Apple+%C2%B7+LLNL+%C2%B7+Beats+%C2%B7+Capital+One;Building+ML+systems+end-to-end" alt="Typing SVG"/>
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=22&pause=1200&color=0071E3&center=true&vCenter=true&width=640&lines=Machine+Learning+Engineer;CS+%2B+Statistics+%40+CSU+Bakersfield+%2726;Previously+%40+Apple+%C2%B7+LLNL+%C2%B7+Beats+%C2%B7+Capital+One;Building+ML+systems+end-to-end" alt="Typing SVG"/>
   </a>
 </p>
 
@@ -23,39 +21,6 @@ Computer Science major, Statistics minor at **CSU Bakersfield** — graduating S
     <td width="45%" valign="top" align="center">
 
 <img src="https://ra4wxfl2tpwxbwks.public.blob.vercel-storage.com/about/Noah_May_2026.webp" alt="Noah Gallego" width="230" style="border-radius: 20px;"/>
-
-    </td>
-  </tr>
-</table>
-
----
-
-### Experience
-
-<table>
-  <tr>
-    <td width="55%" valign="top">
-
-**Apple** — Optimized Battery Charging, ML
-<sub>2024 · Data-driven ML models to extend lithium-ion battery lifespan</sub>
-
-**Beats by Dre** — Sentiment Analysis, Data Science
-<sub>2023–2024 · Sentiment analysis on consumer reviews in Python</sub>
-
-**Lawrence Livermore National Laboratory** — ML for Cardiac ECG
-<sub>2023 · ML models analyzing ECG signals for cardiac diagnostics</sub>
-
-    </td>
-    <td width="45%" valign="top">
-
-**Capital One** — Technical Intern, Launchpad
-<sub>2023–2024 · First place, Launchpad Program 2023; returned 2024</sub>
-
-**Stanford** — Deep Learning Portal
-<sub>2023 · Program graduate</sub>
-
-**CSU Bakersfield** — Instructor, Advanced Web Development
-<sub>2025 · Teaching advanced web dev while finishing the degree</sub>
 
     </td>
   </tr>
@@ -115,5 +80,3 @@ Computer Science major, Statistics minor at **CSU Bakersfield** — graduating S
 <p align="center">
   <img width="98%" src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=noah-gallego&theme=tokyonight" alt="Profile Details"/>
 </p>
-
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:f107a3,50:7b2ff7,100:0071e3&height=140&section=footer&animation=twinkling" alt=""/>
