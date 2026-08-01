@@ -6,14 +6,16 @@
 
 ### About
 
-<a href="https://noahgallego.com"><img src="https://readme-typing-svg.herokuapp.com/?font=SF+Pro+Display&weight=600&size=24&duration=3000&pause=800&color=0071E3&width=435&lines=Machine+Learning+Engineer;Apple+%C2%B7+OBC+ML;CS+%2B+Stats+%40+CSUB+%2726;Building+noahgallego.com" alt="Machine Learning Engineer · Apple OBC ML · CS + Stats @ CSUB '26"/></a>
-
 Computer Science major, Statistics minor at **CSU Bakersfield** — graduating Summer 2026. I work across machine learning, data science, and software engineering.
 
 - 🌐 [noahgallego.com](https://noahgallego.com)
 - 📄 [Resume](https://docs.google.com/document/d/1J3eqOy5Pz4JZy1FjFwGYgkTOxn6PY1ILxVaV1Wr_Fm4/edit?usp=sharing)
 - ✉️ [ngallego@csub.edu](mailto:ngallego@csub.edu)
 - 💼 [linkedin.com/in/noah-gallego](https://linkedin.com/in/noah-gallego)
+
+<br/>
+
+<img width="100%" src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=noah-gallego&layout=compact&theme=tokyonight&hide_border=true&langs_count=8" alt="Top Languages"/>
 
     </td>
     <td width="45%" valign="top" align="center">
