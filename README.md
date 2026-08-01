@@ -71,11 +71,11 @@ Computer Science major, Statistics minor at **CSU Bakersfield** — graduating S
 
 <p align="center">
   <img height="170" src="https://github-readme-streak-stats.herokuapp.com?user=noah-gallego&theme=tokyonight" alt="GitHub Streak"/>
-  <img height="170" src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=noah-gallego&theme=tokyonight" alt="GitHub Stats"/>
+  <img height="170" src="https://github-readme-stats-sigma-five.vercel.app/api?username=noah-gallego&show_icons=true&theme=tokyonight&hide_border=true" alt="GitHub Stats"/>
 </p>
 
 <p align="center">
-  <img width="98%" src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=noah-gallego&theme=tokyonight" alt="Profile Details"/>
+  <img width="98%" src="https://github-readme-activity-graph.vercel.app/graph?username=noah-gallego&theme=tokyo-night&hide_border=true&area=true" alt="Contribution Activity Graph"/>
 </p>
 
 <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:f107a3,50:7b2ff7,100:0071e3&height=140&section=footer&animation=twinkling" alt=""/>
