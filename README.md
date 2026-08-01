@@ -6,6 +6,8 @@
 
 ### About
 
+<a href="https://noahgallego.com"><img src="https://readme-typing-svg.herokuapp.com/?font=SF+Pro+Display&weight=600&size=24&duration=3000&pause=800&color=0071E3&width=435&lines=Machine+Learning+Engineer;Apple+%C2%B7+OBC+ML;CS+%2B+Stats+%40+CSUB+%2726;Building+noahgallego.com" alt="Machine Learning Engineer · Apple OBC ML · CS + Stats @ CSUB '26"/></a>
+
 Computer Science major, Statistics minor at **CSU Bakersfield** — graduating Summer 2026. I work across machine learning, data science, and software engineering.
 
 - 🌐 [noahgallego.com](https://noahgallego.com)
@@ -17,7 +19,6 @@ Computer Science major, Statistics minor at **CSU Bakersfield** — graduating S
     <td width="45%" valign="top" align="center">
 
 <img src="https://ra4wxfl2tpwxbwks.public.blob.vercel-storage.com/about/Noah_May_2026.webp" alt="Noah Gallego" width="230" style="border-radius: 20px;"/>
-
     </td>
   </tr>
 </table>
