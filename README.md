@@ -1,8 +1,8 @@
 <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0071e3,50:7b2ff7,100:f107a3&height=220&section=header&text=Noah%20Gallego&fontSize=56&fontColor=ffffff&fontAlignY=36&animation=fadeIn&desc=Machine%20Learning%20Engineer%20%C2%B7%20CS%20%2B%20Statistics%20%40%20CSUB%20%2726&descAlignY=62&descSize=18" alt="Noah Gallego — Machine Learning Engineer · CS + Statistics @ CSUB '26"/>
 
 <table>
-  <tr>
-    <td width="55%" valign="top">
+<tr>
+<td width="55%" valign="top">
 
 ### About
 
@@ -17,12 +17,13 @@ Computer Science major, Statistics minor at **CSU Bakersfield** — graduating S
 
 <img width="100%" src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=noah-gallego&layout=compact&theme=tokyonight&hide_border=true&langs_count=8" alt="Top Languages"/>
 
-    </td>
-    <td width="45%" valign="top" align="center">
+</td>
+<td width="45%" valign="top" align="center">
 
 <img src="https://ra4wxfl2tpwxbwks.public.blob.vercel-storage.com/about/Noah_May_2026.webp" alt="Noah Gallego" width="230" style="border-radius: 20px;"/>
-    </td>
-  </tr>
+
+</td>
+</tr>
 </table>
 
 ---
