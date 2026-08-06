@@ -93,19 +93,6 @@ Computer Science major, Statistics minor at **CSU Bakersfield** — graduating S
 </p>
 <!-- profile-sync:tools:end -->
 
-<!-- profile-sync:experience:start -->
-### Experience
-
-- **Machine Learning Engineer** — Walt Disney Company · May 2026 – Aug 2026 · Glendale, CA
-- **AI Engineer** — Linean · Oct 2025 – Present · Bakersfield, CA
-- **Machine Learning Engineer Intern** — Apple · May 2025 – Aug 2025 · Austin, TX
-- **Machine Learning Research Assistant** — CSU Bakersfield · Sep 2024 – May 2025 · Bakersfield, CA
-- **Data Scientist Intern** — Lawrence Livermore National Laboratory · Jul 2024 – Aug 2024 · Livermore, CA
-- **Beats by Dre Sentiment Analysis** — Beats by Dre · Jul 2024 – Aug 2024 · Remote
-- **Stanford Deep Learning Portal Projects** — Stanford University · Apr 2024 – Aug 2024 · Remote
-- **Capital One Launchpad Participant** — Capital One · Jul 2024 · McLean, VA
-<!-- profile-sync:experience:end -->
-
 ---
 
 <p align="center">
