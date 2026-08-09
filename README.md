@@ -71,10 +71,7 @@
 
 ---
 
-<p align="center">
-  <img height="170" src="https://github-readme-streak-stats.herokuapp.com?user=noah-gallego&theme=tokyonight" alt="GitHub Streak"/>
-  <img height="170" src="https://github-readme-stats-one-bice.vercel.app/api?username=noah-gallego&show_icons=true&theme=tokyonight&hide_border=true" alt="GitHub Stats"/>
-</p>
+<p align="center"><img width="49%" src="https://github-readme-streak-stats.herokuapp.com?user=noah-gallego&theme=tokyonight" alt="GitHub Streak"/><img width="49%" src="https://github-readme-stats-one-bice.vercel.app/api?username=noah-gallego&show_icons=true&theme=tokyonight&hide_border=true" alt="GitHub Stats"/></p>
 
 <p align="center">
   <img width="98%" src="https://github-readme-activity-graph.vercel.app/graph?username=noah-gallego&theme=tokyo-night&hide_border=true&area=true" alt="Contribution Activity Graph"/>
