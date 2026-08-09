@@ -73,7 +73,7 @@
 
 <p align="center">
   <img height="170" src="https://github-readme-streak-stats.herokuapp.com?user=noah-gallego&theme=tokyonight" alt="GitHub Streak"/>
-  <img height="170" src="https://github-readme-stats-sigma-five.vercel.app/api?username=noah-gallego&show_icons=true&theme=tokyonight&hide_border=true" alt="GitHub Stats"/>
+  <img height="170" src="https://github-readme-stats-one-bice.vercel.app/api?username=noah-gallego&show_icons=true&theme=tokyonight&hide_border=true" alt="GitHub Stats"/>
 </p>
 
 <p align="center">
