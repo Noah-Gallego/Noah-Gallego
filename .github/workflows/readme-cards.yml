@@ -31,7 +31,8 @@ jobs:
 
       - name: Install github-readme-stats
         run: |
-          git clone --depth 1 --branch 54a7985aeefda00d5eadb55b80c17c7f976c37d2 https://github.com/anuraghazra/github-readme-stats.git /tmp/grs
+          git clone --depth 1 https://github.com/anuraghazra/github-readme-stats.git /tmp/grs
+          cd /tmp/grs && git fetch --depth 1 origin 54a7985aeefda00d5eadb55b80c17c7f976c37d2 && git checkout FETCH_HEAD
           # --ignore-scripts: the repo's `prepare` hook runs husky, a
           # devDependency --omit=dev skips, and npm ci would exit 127.
           cd /tmp/grs && npm ci --omit=dev --ignore-scripts --silent
