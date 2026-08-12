@@ -1,0 +1,63 @@
+name: Update README cards
+
+on:
+  workflow_dispatch:
+  # Regenerate immediately when the card pipeline itself changes, so the SVGs
+  # the README points at exist without waiting for the nightly run.
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/readme-cards.yml'
+      - '.github/scripts/render-stats-cards.mjs'
+      - '.github/scripts/render-activity-graph.mjs'
+      - '.github/scripts/render-streak-card.mjs'
+      - '.github/scripts/verify-cards.mjs'
+  schedule:
+    - cron: '11 4 * * *'
+
+permissions:
+  contents: write
+
+jobs:
+  cards:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+
+      - name: Install github-readme-stats
+        run: |
+          git clone --depth 1 --branch 54a7985aeefda00d5eadb55b80c17c7f976c37d2 https://github.com/anuraghazra/github-readme-stats.git /tmp/grs
+          # --ignore-scripts: the repo's `prepare` hook runs husky, a
+          # devDependency --omit=dev skips, and npm ci would exit 127.
+          cd /tmp/grs && npm ci --omit=dev --ignore-scripts --silent
+
+      - name: Render stats and top-languages cards
+        run: node .github/scripts/render-stats-cards.mjs
+        env:
+          PAT_1: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Generate streak card
+        run: node .github/scripts/render-streak-card.mjs
+        env:
+          PAT_1: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Generate activity graph
+        run: node .github/scripts/render-activity-graph.mjs
+        env:
+          PAT_1: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Verify cards
+        run: node .github/scripts/verify-cards.mjs
+
+      - name: Commit cards
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add profile
+          git diff --cached --quiet || git commit -m 'chore: refresh README cards'
+          git push
