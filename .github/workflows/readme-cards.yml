@@ -38,19 +38,21 @@ jobs:
           cd /tmp/grs && npm ci --omit=dev --ignore-scripts --silent
 
       - name: Render stats and top-languages cards
+        # github-readme-stats reads repos Noah has contributed to, so it needs
+        # a user PAT (STATS_PAT); GITHUB_TOKEN only sees this repo.
         run: node .github/scripts/render-stats-cards.mjs
         env:
-          PAT_1: ${{ secrets.GITHUB_TOKEN }}
+          PAT_1: ${{ secrets.STATS_PAT }}
 
       - name: Generate streak card
         run: node .github/scripts/render-streak-card.mjs
         env:
-          PAT_1: ${{ secrets.GITHUB_TOKEN }}
+          PAT_1: ${{ secrets.STATS_PAT }}
 
       - name: Generate activity graph
         run: node .github/scripts/render-activity-graph.mjs
         env:
-          PAT_1: ${{ secrets.GITHUB_TOKEN }}
+          PAT_1: ${{ secrets.STATS_PAT }}
 
       - name: Verify cards
         run: node .github/scripts/verify-cards.mjs
