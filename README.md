@@ -11,13 +11,13 @@
   <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python"/>
   <img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript"/>
   <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="JavaScript"/>
-  <img src="https://img.shields.io/badge/C%2B%2B-00599C?style=for-the-badge&logo=cplusplus&logoColor=white" alt="C++"/>
+  <img src="https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=cplusplus&logoColor=white" alt="C++"/>
   <img src="https://img.shields.io/badge/C-A8B9CC?style=for-the-badge&logo=c&logoColor=black" alt="C"/>
   <img src="https://img.shields.io/badge/Rust-000000?style=for-the-badge&logo=rust&logoColor=white" alt="Rust"/>
   <img src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white" alt="Java"/>
   <img src="https://img.shields.io/badge/Ruby-CC342D?style=for-the-badge&logo=ruby&logoColor=white" alt="Ruby"/>
   <img src="https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white" alt="PHP"/>
-  <img src="https://img.shields.io/badge/Ada-555555?style=for-the-badge&logo=&logoColor=white" alt="Ada"/>
+  <img src="https://img.shields.io/badge/Ada-02f88c?style=for-the-badge&logo=ada&logoColor=black" alt="Ada"/>
   <img src="https://img.shields.io/badge/HTML-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="HTML"/>
   <img src="https://img.shields.io/badge/CSS-1572B6?style=for-the-badge&logo=css3&logoColor=white" alt="CSS"/>
   <img src="https://img.shields.io/badge/Sass-CC6699?style=for-the-badge&logo=sass&logoColor=white" alt="Sass"/>
@@ -39,8 +39,8 @@
   <img src="https://img.shields.io/badge/Snowflake-555555?style=for-the-badge&logo=&logoColor=white" alt="Snowflake"/>
   <img src="https://img.shields.io/badge/Streamlit-555555?style=for-the-badge&logo=&logoColor=white" alt="Streamlit"/>
   <img src="https://img.shields.io/badge/Databricks-555555?style=for-the-badge&logo=&logoColor=white" alt="Databricks"/>
-  <img src="https://img.shields.io/badge/Keras-555555?style=for-the-badge&logo=&logoColor=white" alt="Keras"/>
-  <img src="https://img.shields.io/badge/Matplotlib-555555?style=for-the-badge&logo=&logoColor=white" alt="Matplotlib"/>
+  <img src="https://img.shields.io/badge/Keras-D00000?style=for-the-badge&logo=keras&logoColor=white" alt="Keras"/>
+  <img src="https://img.shields.io/badge/Matplotlib-11557C?style=for-the-badge&logo=matplotlib&logoColor=white" alt="Matplotlib"/>
 </p>
 <!-- profile-sync:mlData:end -->
 
