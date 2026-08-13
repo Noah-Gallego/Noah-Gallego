@@ -35,10 +35,10 @@
   <img src="https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white" alt="NumPy"/>
   <img src="https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white" alt="Pandas"/>
   <img src="https://img.shields.io/badge/Jupyter-F37626?style=for-the-badge&logo=jupyter&logoColor=white" alt="Jupyter"/>
-  <img src="https://img.shields.io/badge/OpenSearch-555555?style=for-the-badge&logo=&logoColor=white" alt="OpenSearch"/>
-  <img src="https://img.shields.io/badge/Snowflake-555555?style=for-the-badge&logo=&logoColor=white" alt="Snowflake"/>
-  <img src="https://img.shields.io/badge/Streamlit-555555?style=for-the-badge&logo=&logoColor=white" alt="Streamlit"/>
-  <img src="https://img.shields.io/badge/Databricks-555555?style=for-the-badge&logo=&logoColor=white" alt="Databricks"/>
+  <img src="https://img.shields.io/badge/OpenSearch-005EB8?style=for-the-badge&logo=opensearch&logoColor=white" alt="OpenSearch"/>
+  <img src="https://img.shields.io/badge/Snowflake-29B5E8?style=for-the-badge&logo=snowflake&logoColor=white" alt="Snowflake"/>
+  <img src="https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white" alt="Streamlit"/>
+  <img src="https://img.shields.io/badge/Databricks-FF3621?style=for-the-badge&logo=databricks&logoColor=white" alt="Databricks"/>
   <img src="https://img.shields.io/badge/Keras-D00000?style=for-the-badge&logo=keras&logoColor=white" alt="Keras"/>
   <img src="https://img.shields.io/badge/Matplotlib-11557C?style=for-the-badge&logo=matplotlib&logoColor=white" alt="Matplotlib"/>
 </p>
@@ -64,7 +64,7 @@
   <img src="https://img.shields.io/badge/Spring%20Boot-6DB33F?style=for-the-badge&logo=springboot&logoColor=white" alt="Spring Boot"/>
   <img src="https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black" alt="React"/>
   <img src="https://img.shields.io/badge/Jenkins-D24939?style=for-the-badge&logo=jenkins&logoColor=white" alt="Jenkins"/>
-  <img src="https://img.shields.io/badge/Atlassian%20Suite-555555?style=for-the-badge&logo=&logoColor=white" alt="Atlassian Suite"/>
+  <img src="https://img.shields.io/badge/Atlassian%20Suite-0052CC?style=for-the-badge&logo=atlassian&logoColor=white" alt="Atlassian Suite"/>
   <img src="https://img.shields.io/badge/Claude-D97757?style=for-the-badge&logo=anthropic&logoColor=white" alt="Claude"/>
 </p>
 <!-- profile-sync:tools:end -->
@@ -75,7 +75,7 @@
 
 I keep my live contribution graph on [my GitHub profile](https://github.com/Noah-Gallego), where it updates directly from GitHub.
 
-<p align="center"><img width="49%" src="profile/streak.svg" alt="GitHub Streak"/><img width="49%" src="profile/stats.svg" alt="GitHub Stats"/></p>
+<p align="center"><img height="195" src="profile/streak.svg" alt="GitHub Streak"/><img height="195" src="profile/stats.svg" alt="GitHub Stats"/></p>
 
 <p align="center">
   <img width="98%" src="profile/activity.svg" alt="Contribution Activity Graph"/>

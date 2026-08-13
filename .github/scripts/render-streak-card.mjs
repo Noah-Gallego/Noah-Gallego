@@ -13,6 +13,7 @@ import { assertCardSvg } from "./verify-cards.mjs";
 
 const LOGIN = "Noah-Gallego";
 const OUTPUT = "profile/streak.svg";
+const FONT_FAMILY = "-apple-system, BlinkMacSystemFont, 'Segoe UI', Ubuntu, sans-serif";
 
 // Tokyo Night, matching profile/stats.svg and profile/activity.svg.
 const COLORS = {
@@ -170,7 +171,7 @@ export function buildStreakSvg({ total, range, current, longest }) {
 <title id="title">Noah Gallego's GitHub Streak</title>
 <desc id="desc">${desc}</desc>
 <rect width="100%" height="100%" rx="10" fill="${COLORS.bg}"/>
-<g font-family="'Segoe UI', Ubuntu, sans-serif" text-anchor="middle">
+<g font-family="${FONT_FAMILY}" text-anchor="middle">
 <line x1="165" y1="28" x2="165" y2="167" stroke="${COLORS.divider}"/>
 <line x1="330" y1="28" x2="330" y2="167" stroke="${COLORS.divider}"/>
 ${side(leftX, number(total), "Total Contributions", `${formatDate(range.start)} - ${formatDate(range.end)}`)}

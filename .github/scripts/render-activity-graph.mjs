@@ -9,6 +9,7 @@ import { mkdir, writeFile } from "node:fs/promises";
 import { assertCardSvg } from "./verify-cards.mjs";
 
 const username = "Noah-Gallego";
+const FONT_FAMILY = "-apple-system, BlinkMacSystemFont, 'Segoe UI', Ubuntu, sans-serif";
 
 // Build the plotted window first: the calendar query is bounded by exactly the
 // days that get rendered.
@@ -111,7 +112,7 @@ const xLabels = [0, 35, 70, 104].map((index) => {
   const x = left + (index / (days.length - 1)) * plotWidth;
   return `<text x="${x}" y="${height - 14}" text-anchor="middle" fill="#8b949e" font-size="13">${days[index].key.slice(5)}</text>`;
 }).join("");
-const svg = `<svg xmlns="http://www.w3.org/2000/svg" width="${width}" height="${height}" viewBox="0 0 ${width} ${height}" role="img" aria-labelledby="title desc"><title id="title">Noah Gallego's Contribution Graph</title><desc id="desc">GitHub contributions over the last 105 days.</desc><rect width="100%" height="100%" rx="10" fill="#1a1b27"/><text x="${width / 2}" y="30" text-anchor="middle" fill="#70a5fd" font-size="20" font-weight="600">Noah Gallego's Contribution Graph</text>${labels}<polygon points="${area}" fill="#70a5fd" fill-opacity=".16"/><polyline points="${points}" fill="none" stroke="#70a5fd" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>${xLabels}<text x="${width / 2}" y="${height - 1}" text-anchor="middle" fill="#8b949e" font-size="13">Days</text></svg>`;
+const svg = `<svg xmlns="http://www.w3.org/2000/svg" width="${width}" height="${height}" viewBox="0 0 ${width} ${height}" role="img" aria-labelledby="title desc"><title id="title">Noah Gallego's Contribution Graph</title><desc id="desc">GitHub contributions over the last 105 days.</desc><rect width="100%" height="100%" rx="10" fill="#1a1b27"/><g font-family="${FONT_FAMILY}"><text x="${width / 2}" y="30" text-anchor="middle" fill="#70a5fd" font-size="20" font-weight="600">Noah Gallego's Contribution Graph</text>${labels}<polygon points="${area}" fill="#70a5fd" fill-opacity=".16"/><polyline points="${points}" fill="none" stroke="#70a5fd" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>${xLabels}<text x="${width / 2}" y="${height - 1}" text-anchor="middle" fill="#8b949e" font-size="13">Days</text></g></svg>`;
 assertCardSvg("profile/activity.svg", svg);
 await mkdir("profile", { recursive: true });
 await writeFile("profile/activity.svg", svg);

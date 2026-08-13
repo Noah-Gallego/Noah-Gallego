@@ -17,11 +17,13 @@ URL = 'https://www.noahgallego.com/api/profile-sync/'
 TITLES = {'languages':'### Languages','mlData':'### ML & Data','tools':'### Infra & Tools'}
 BADGES = {
   'Python':('3776AB','python','white'),'TypeScript':('3178C6','typescript','white'),'JavaScript':('F7DF1E','javascript','black'),'C++':('00599C','cplusplus','white'),'C':('A8B9CC','c','black'),'Rust':('000000','rust','white'),'Java':('ED8B00','openjdk','white'),'Ruby':('CC342D','ruby','white'),'PHP':('777BB4','php','white'),'Ada':('02f88c','ada','black'),'HTML':('E34F26','html5','white'),'CSS':('1572B6','css3','white'),'Sass':('CC6699','sass','white'),'SQL':('4479A1','mysql','white'),
-  'PyTorch':('EE4C2C','pytorch','white'),'TensorFlow':('FF6F00','tensorflow','white'),'scikit-learn':('F7931E','scikit--learn','white'),'NumPy':('013243','numpy','white'),'Pandas':('150458','pandas','white'),'Jupyter':('F37626','jupyter','white'),'Keras':('D00000','keras','white'),'Matplotlib':('11557C','matplotlib','white'),
-  'AWS':('232F3E','amazonwebservices','white'),'Azure':('0078D4','microsoftazure','white'),'Vercel':('000000','vercel','white'),'Node.js':('339933','nodedotjs','white'),'MySQL':('4479A1','mysql','white'),'SQL Server':('CC2927','microsoftsqlserver','white'),'Docker':('2496ED','docker','white'),'Kubernetes':('326CE5','kubernetes','white'),'Terraform':('844FBA','terraform','white'),'Git':('F05032','git','white'),'GitHub':('181717','github','white'),'Linux':('FCC624','linux','black'),'FastAPI':('009688','fastapi','white'),'Spring Boot':('6DB33F','springboot','white'),'React':('61DAFB','react','black'),'Jenkins':('D24939','jenkins','white'),'Claude':('D97757','anthropic','white')}
+  'PyTorch':('EE4C2C','pytorch','white'),'TensorFlow':('FF6F00','tensorflow','white'),'scikit-learn':('F7931E','scikit--learn','white'),'NumPy':('013243','numpy','white'),'Pandas':('150458','pandas','white'),'Jupyter':('F37626','jupyter','white'),'Keras':('D00000','keras','white'),'Matplotlib':('11557C','matplotlib','white'),'OpenSearch':('005EB8','opensearch','white'),'Snowflake':('29B5E8','snowflake','white'),'Streamlit':('FF4B4B','streamlit','white'),'Databricks':('FF3621','databricks','white'),
+  'AWS':('232F3E','amazonwebservices','white'),'Azure':('0078D4','microsoftazure','white'),'Vercel':('000000','vercel','white'),'Node.js':('339933','nodedotjs','white'),'MySQL':('4479A1','mysql','white'),'SQL Server':('CC2927','microsoftsqlserver','white'),'Docker':('2496ED','docker','white'),'Kubernetes':('326CE5','kubernetes','white'),'Terraform':('844FBA','terraform','white'),'Git':('F05032','git','white'),'GitHub':('181717','github','white'),'Linux':('FCC624','linux','black'),'FastAPI':('009688','fastapi','white'),'Spring Boot':('6DB33F','springboot','white'),'React':('61DAFB','react','black'),'Jenkins':('D24939','jenkins','white'),'Atlassian Suite':('0052CC','atlassian','white'),'Claude':('D97757','anthropic','white')}
 
 def badge(name):
-  color, logo, fg = BADGES.get(name, ('555555','', 'white'))
+  if name not in BADGES:
+    raise RuntimeError(f'no logo mapping for technology: {name}')
+  color, logo, fg = BADGES[name]
   return f'<img src="https://img.shields.io/badge/{name.replace(" ", "%20")}-{color}?style=for-the-badge&logo={logo}&logoColor={fg}" alt="{name}"/>'
 
 def replace(text, key, body, required=True):

@@ -17,23 +17,28 @@ const { renderStatsCard } = await import(grs("src/cards/stats.js"));
 const { renderTopLanguages } = await import(grs("src/cards/top-languages.js"));
 
 const username = "noah-gallego";
+const FONT_FAMILY = "-apple-system, BlinkMacSystemFont, 'Segoe UI', Ubuntu, sans-serif";
+const normalizeCardFonts = (svg) => svg.replace(
+  /(?:'Segoe UI'|"Segoe UI"),\s*Ubuntu,\s*(?:(?:'Helvetica Neue'|"Helvetica Neue"),\s*)?Sans-Serif/g,
+  FONT_FAMILY,
+);
 
 const stats = await fetchStats(username);
-const statsSvg = renderStatsCard(stats, {
+const statsSvg = normalizeCardFonts(renderStatsCard(stats, {
   show_icons: true,
   theme: "tokyonight",
   hide_border: true,
-});
+}));
 
 // (username, exclude_repo, size_weight, count_weight) -- the weights are
 // numbers; passing arrays makes every language weigh exactly 1.
 const langs = await fetchTopLanguages(username, [], 1, 0);
-const langsSvg = renderTopLanguages(langs, {
+const langsSvg = normalizeCardFonts(renderTopLanguages(langs, {
   layout: "compact",
   theme: "tokyonight",
   hide_border: true,
   langs_count: 8,
-});
+}));
 
 // Validate both cards before writing either, so a failed fetch can never
 // leave a half-refreshed pair on disk for the commit step to pick up.
