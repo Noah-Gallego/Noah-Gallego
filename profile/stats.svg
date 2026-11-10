@@ -9,7 +9,7 @@
         aria-labelledby="descId"
       >
         <title id="titleId">Noah Gallego's GitHub Stats, Rank: A-</title>
-        <desc id="descId">Total Stars Earned: 14, Total Commits  (last year) : 726, Total PRs: 213, Total Issues: 114, Contributed to (last year): 14</desc>
+        <desc id="descId">Total Stars Earned: 14, Total Commits  (last year) : 726, Total PRs: 213, Total Issues: 114, Contributed to (last year): 11</desc>
         <style>
           .header {
             font: 600 18px -apple-system, BlinkMacSystemFont, 'Segoe UI', Ubuntu, sans-serif;
@@ -222,7 +222,7 @@
         x="219.01"
         y="12.5"
         data-testid="contribs"
-      >14</text>
+      >11</text>
     </g>
   </g>
     </svg>
